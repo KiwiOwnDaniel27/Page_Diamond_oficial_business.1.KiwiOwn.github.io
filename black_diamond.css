@@ -1,0 +1,177 @@
+html{
+    text-align: center;
+    background-color: black;
+}
+
+
+
+body {
+    display: grid;
+    place-items: center;
+}
+
+header{
+    display: inline-flex;
+    align-items: center;
+}
+
+h3{
+    background-position: center;
+    margin-left: 130px;
+    margin-right: 425px;
+    color: rgb(255, 255, 255);
+    font-size: 45px;
+    text-shadow: 0px 0px 0 rgb(92, 35, 145), 8px -8px 0 rgb(92, 35, 145), -8px 8px 0 rgb(0, 0, 0), -8px -8px 0 rgb(0, 0, 0);
+    font-family: "Pirata One", serif;
+    font-family: "Pirata One", serif;
+    font-weight: 100;
+    font-style: oblique;
+}
+
+
+h2{
+    text-align: center;
+    color: white;
+    text-shadow: 5px 5px 5px rgb(92, 35, 145);
+    font-size: 40px;
+    font-family: "Lobster", sans-serif;
+    font-weight: 1500px;
+    font-style: oblique;
+}
+
+
+p{
+    text-align: center; 
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 0 rgb(0, 0, 0), 1px -1px 0 rgb(0, 0, 0), -1px 1px 0 rgb(0, 0, 0), -1px -1px 0 rgb(0, 0, 0);
+    font-size: 30px;
+    font-family: "Lobster", sans-serif;
+    font-weight: 1500px;
+    font-style: oblique;
+}
+
+a{
+    font-size: 30px;
+    font-family: "Lobster", sans-serif;
+    font-style: oblique;
+    text-shadow: 1px 1px 0 rgb(92, 35, 145);
+
+}
+
+
+.cuadrado{
+    background: rgb black;
+    text-align: center;
+    display: inline-flex;
+    margin: 24px;
+    background-color: rgb(92, 35, 145);
+    padding: 20px;
+    border-radius: 27px;
+    opacity: 100%;
+}
+
+
+.contenedor{
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: url(IMG_black_diamond/Designer\ \(30\).jpeg);
+    background-repeat: repeat-y;
+    background-position: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 27px;
+}
+
+.encabezado{
+    margin: 1px 1px;
+}
+
+.encabezado img{
+    border-radius: 27px;
+}
+
+a{
+margin-top: auto;
+}
+
+footer{
+    background: url(IMG_black_diamond/Fondo.jpeg);
+    background-repeat: repeat-y;
+    background-position: center;
+    padding: 10px;
+    color: white;
+    width: 1300px;
+    border-radius: 27px;
+}
+
+footer section{
+    float: left;
+    margin-right: 100px;
+    padding-left: 300px;
+}
+
+footer p{
+    float: center;
+}
+
+footer a{
+transition: color 0.3s ease;
+color: white;
+text-decoration: none;
+}
+
+footer a:hover {
+    color: rgb(0, 0, 0);
+}
+
+.logo{
+    width: 65x;
+    height: 65px;
+    background: url(IMG/LOGO.jpg);
+    background-position: center;
+    background-size: cover;
+    filter: drop-shadow(0px 7px 21px #ed25ff);
+    animation: rotar 5s linear infinite;
+    margin-left: 0px;
+}
+
+.logo:hover{
+    cursor: pointer;
+}
+
+@keyframes rotar{
+    from{
+        transform: rotateY(180deg);
+    }
+    to
+        transform: rotateY(-180deg);
+}
+
+
+button{
+    font-size: 20px;
+}
+
+.cuadrado img{
+    border-radius: 27px;
+}
+
+.distinto{
+    font-size: 55px;
+    font-family: "Pirata One", serif;
+    font-family: "Pirata One", serif;
+    font-weight: 100px;
+    font-style: oblique;
+}
+
+.opcionees{
+    text-align: center;
+    color: white;
+    text-shadow: 5px 5px 5px rgb(92, 35, 145);
+    font-size: 40px;
+    font-family: "Lobster", sans-serif;
+    font-weight: 1500px;
+    font-style: oblique;
+}
+
